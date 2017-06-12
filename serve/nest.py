@@ -26,20 +26,6 @@ def echo(bot, update):
 def unknown(bot, update):
     bot.sendMessage(chat_id=update.message.chat_id, text="Sorry. Cannot parse your message.")
 
-def unset_timer(bot, update):
-    """Removes the job if the user changed their mind"""
-    chat_id = update.message.chat_id
-
-    if chat_id not in timers:
-        update.message.reply_text('사용중인 타이머가 없습니다.')
-        return
-
-    job = timers[chat_id]
-    job.schedule_removal()
-    del timers[chat_id]
-
-    update.message.reply_text('타이머를 해제했습니다.')
-
 def error(bot, update, error):
     logger.warn('Update "%s" caused error "%s"' % (update, error))
 

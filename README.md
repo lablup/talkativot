@@ -45,11 +45,11 @@ Will soon be prepared. (Still too simple to be dockerized!)
 Talkativot consists of two main parts: bot server and decision engine.
 
  * Bot server
-  * Interface for bot service APIs.
-  * Communicate with decision engine via REST
+   * Interface for bot service APIs.
+   * Communicate with decision engine via REST
  * Decision module
-  * 'Real' bot engine
-  * Consists of
-   * Context parser
-   * Decision graph
-   * Feature modules
+   * 'Real' bot engine
+   * Consists of
+     * Context parser
+     * Decision graph
+     * Feature modules

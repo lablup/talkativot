@@ -1,8 +1,7 @@
 Talkativot: Do-It-Yourself backbone for your AI friend
 ======================================================
 
-Chat-bot barebone for testing the possibility of bot-based service.
-
+Open-source Chat-bot barebone for testing the possibility of bot-based service.
 
 ![version](https://img.shields.io/badge/version-0.1a-red.svg)
 

@@ -1,0 +1,6 @@
+python-telegram-bot
+django
+markdown
+django-filter
+pyzmq
+celery

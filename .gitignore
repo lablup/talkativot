@@ -93,9 +93,6 @@ venv/
 *.orig
 # Node package
 node_modules/
-# developement keypair
-neumann-dev.pem
-neumann-dev.pub
 
 # vim swap file
 *.swp
